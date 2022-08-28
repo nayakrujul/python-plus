@@ -3,7 +3,7 @@ README.md
 setup.cfg
 setup.py
 python_plus/__init__.py
-python_plus/interpreter.py
+python_plus/compiler.py
 shorter_python.egg-info/PKG-INFO
 shorter_python.egg-info/SOURCES.txt
 shorter_python.egg-info/dependency_links.txt
