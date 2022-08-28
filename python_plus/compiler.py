@@ -71,7 +71,7 @@ def convert(s):
 def from_file():
     parser = argparse.ArgumentParser(prog ='pythonplus',
                                      description ='Run a Python+ file using the pythonplus command')
-    parser.add_argument('filename', metavar ='filename', type=str, nargs=1, help= 'The filename of the file to run using the Python+ Interpreter')
+    parser.add_argument('filename', metavar ='filename', type=str, nargs=1, help= 'The filename of the file to run using the Python+ Compiler')
     args = parser.parse_args()
     try:
         with open(args.filename[0]) as f:
