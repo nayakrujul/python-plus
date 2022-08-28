@@ -9,7 +9,7 @@ From PIP:
 $ pip install shorter-python
 ```
 
-## Running code
+## Running code from command line
 
 Use the `pythonplus` command, followed by a filename
 
@@ -18,6 +18,16 @@ $ pythonplus my_file.py
 ```
 
 Note: the file can have any extension, not just `.py`
+
+## Running code from Python
+
+Use the `convert` function to convert a string of Python+ code to Python:
+
+```python
+from python_plus import convert
+my_code = "$([i£i:range(1,n+1)?~~n%i])"
+exec(convert(my_code))
+```
 
 ## Syntax
 
