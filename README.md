@@ -27,6 +27,30 @@ Here is a table to show the difference between Python and Python+
 |-|-|-|-|
 |`print`|`$`|`print(x)` -> `$(x)`|4|
 |`input`|`§`|`input(x)` -> `§(x)`|4|
-|`for` ... `in`|`£` ... `:`*|`for x in y:` -> `£x:y`|7|
+|`for` ... `in`|`£` ... `:`\*|`for x in y:` -> `£x:y`|7|
+|`in`|`:`|`x in y` -> `x:y`|3|
+|`while`|`€`\*|`while x` -> `€x`|5|
+|`if`|`?`\*|`if x:` -> `?x`|3|
+|`else`|`!`\*|`else:` -> `!`|4|
+|`elif`|`±`\*|`elif x:` -> `±x`|5|
+|`and`|`&&`|`x and y` -> `x&&y`|3|
+|`or`|`||`|`x or y` -> `x||y`|2|
+|`not`|`~~`|`not x` -> `~~x`|2|
 
 \* Colons are not needed at the end of a line in Python+
+
+## Example
+
+This Python script to get the factors of an number, n is 43 characters:
+
+```python
+print([i for i in range(1,n+1) if not n%i])
+```
+
+The equivalent Python+ code is 27 characters (a 37% reduction)
+
+```python
+$([i£i:range(1,n+1)?~~n%i])
+```
+
+Python+ can save you time and characters.
