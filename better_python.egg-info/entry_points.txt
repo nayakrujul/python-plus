@@ -1,3 +1,0 @@
-[console_scripts]
-pythonplus = python_plus.interpreter:from_file
-
