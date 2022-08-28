@@ -32,7 +32,7 @@ setup(
   packages = find_packages(),
   entry_points = {
     'console_scripts': [
-      'pythonplus = python_plus.interpreter:from_file'
+      'pythonplus = python_plus.compiler:from_file'
     ]
   }
 )
