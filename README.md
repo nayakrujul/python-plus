@@ -50,7 +50,7 @@ Here is a table to show the difference between Python and Python+
 
 ## Example
 
-This Python script to get the factors of an number, n is 43 characters:
+This Python script to get the factors of a given number, n, is 43 characters:
 
 ```python
 print([i for i in range(1,n+1) if not n%i])
