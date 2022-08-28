@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+python_plus/__init__.py
+python_plus/interpreter.py
+shorter_python.egg-info/PKG-INFO
+shorter_python.egg-info/SOURCES.txt
+shorter_python.egg-info/dependency_links.txt
+shorter_python.egg-info/entry_points.txt
+shorter_python.egg-info/top_level.txt
