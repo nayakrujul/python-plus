@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+better_python.egg-info/PKG-INFO
+better_python.egg-info/SOURCES.txt
+better_python.egg-info/dependency_links.txt
+better_python.egg-info/entry_points.txt
+better_python.egg-info/top_level.txt
+python_plus/__init__.py
+python_plus/interpreter.py
