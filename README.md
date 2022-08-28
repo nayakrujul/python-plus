@@ -43,7 +43,7 @@ Here is a table to show the difference between Python and Python+
 |`else`|`!`\*|`else:` -> `!`|4|
 |`elif`|`±`\*|`elif x:` -> `±x`|5|
 |`and`|`&&`|`x and y` -> `x&&y`|3|
-|`or`|`||`|`x or y` -> `x||y`|2|
+|`or`|`\|\|`|`x or y` -> `x\|\|y`|2|
 |`not`|`~~`|`not x` -> `~~x`|2|
 
 \* Colons are not needed at the end of a line in Python+
