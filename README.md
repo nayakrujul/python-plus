@@ -1,5 +1,5 @@
 # python-plus
-Shorten your Python code with shorter syntax.
+Shorten your Python code with concise syntax.
 
 ## Installation
 
