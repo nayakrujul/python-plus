@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 long_description = 'Shorten your Python code with shorter syntax - read the docs at https://www.github.com/nayakrujul/python-plus'
 
 setup(
-  name = 'better-python',
+  name = 'shorter-python',
   version = '1.0',
   license='Apache',
   description = 'Shorten your Python code with shorter syntax.',
