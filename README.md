@@ -25,8 +25,7 @@ Use the `convert` function to convert a string of Python+ code to Python:
 
 ```python
 from python_plus import convert
-my_code = "$([i£i:range(1,n+1)?~~n%i])"
-exec(convert(my_code))
+exec(convert(PYTHON_PLUS_CODE_HERE))
 ```
 
 ## Syntax
