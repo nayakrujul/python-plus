@@ -77,7 +77,6 @@ def from_file():
         with open(args.filename[0]) as f:
             exec(convert(f.read()))
             return 0
-    except:
-        pass
-    print('An error occurred')
+    except Exception as e:
+        print('An error occurred:', e)
     return 1
