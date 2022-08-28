@@ -1,19 +1,18 @@
 from setuptools import setup, find_packages
 
-long_description = 'Update a graph while you plot - read the docs at https://www.github.com/nayakrujul/plot-on-the-go'
+long_description = 'Shorten your Python code with shorter syntax - read the docs at https://www.github.com/nayakrujul/python-plus'
 
 setup(
-  name = 'plot-on-the-go',
-  version = '2.0',
+  name = 'better-python',
+  version = '1.0',
   license='Apache',
-  description = 'Update a graph while you plot!',
+  description = 'Shorten your Python code with shorter syntax.',
   author = 'Rujul Nayak',
   author_email = 'rujulnayak@outlook.com',
-  url = 'https://github.com/nayakrujul/plot-on-the-go',
-  download_url = 'https://github.com/nayakrujul/plot-on-the-go/archive/refs/tags/v_01.tar.gz',
-  keywords = ['plot', 'graph'],
+  url = 'https://github.com/nayakrujul/python-plus',
+  download_url = 'https://github.com/nayakrujul/python-pluso/archive/refs/tags/v_01.tar.gz',
+  keywords = ['shorter', 'syntax'],
   install_requires=[
-    'pygame'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha', 
