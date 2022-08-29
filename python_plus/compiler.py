@@ -83,8 +83,9 @@ def from_file():
                 print('\033[2mPython3 Code:\033[0m\n' + python_code + '\n')
                 print('\033[2mOutput:\033[0m')
             d = {}
-            for line in python_code:
-                exec(line, d, d)
+            for _ in python_code:
+                exec(python_code, d, d)
+                break
             return 0
     except Exception as e:
         print('\033[1;31mAn error occurred:', e, '\033[0m')
