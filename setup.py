@@ -4,7 +4,7 @@ long_description = 'Shorten your Python code with shorter syntax - read the docs
 
 setup(
   name = 'shorter-python',
-  version = '2.1',
+  version = '2.2',
   license='Apache',
   description = 'Shorten your Python code with shorter syntax.',
   author = 'Rujul Nayak',
