@@ -84,7 +84,7 @@ def from_file():
                 print('\033[2mOutput:\033[0m')
             d = {}
             for line in python_code.splitlines():
-                exec(python_code, globals=d, locals=d)
+                exec(python_code, d, d)
             return 0
     except Exception as e:
         print('\033[1;31mAn error occurred:', e, '\033[0m')
