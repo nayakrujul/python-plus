@@ -78,7 +78,7 @@ def from_file():
         with open(args.filename[0]) as f:
             python_plus_code = f.read().rstrip()
             python_code = convert(python_plus_code)
-            if parser.debug:
+            if args.debug:
                 print('\033[2mPython+ Code:\033[0m\n' + python_plus_code + '\n')
                 print('\033[2mPython3 Code:\033[0m\n' + python_code + '\n')
                 print('\033[2mOutput:\033[0m')
