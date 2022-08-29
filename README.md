@@ -11,13 +11,34 @@ $ pip install shorter-python
 
 ## Running code from command line
 
-Use the `pythonplus` command, followed by a filename
+### Use the `pythonplus` command, followed by a filename
 
 ```
 $ pythonplus my_file.py
 ```
 
 Note: the file can have any extension, not just `.py`
+
+### To debug your program, use `-d 1`
+
+```
+$ pythonplus my_file.py -d 1
+```
+
+The output will look like this:
+
+```
+Python+ Code:
+n=100
+$([i£i:range(1,n+1)?~~n%i])
+
+Python3 Code:
+n=100
+print([i for i in range(1,n+1) if  not n%i])
+
+Output:
+[1, 2, 4, 5, 10, 20, 25, 50, 100]
+```
 
 ## Running code from Python
 
