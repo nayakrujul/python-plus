@@ -19,10 +19,10 @@ $ pythonplus my_file.py
 
 Note: the file can have any extension, not just `.py`
 
-### To debug your program, use `-d 1`
+### To debug your program, use `-d`
 
 ```
-$ pythonplus my_file.py -d 1
+$ pythonplus my_file.py -d
 ```
 
 The output will look like this:
